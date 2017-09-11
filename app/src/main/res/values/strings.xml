@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OurSMS</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_student_dashboard">StudentDashboard</string>
+    <string name="title_activity_tag_writer">TagWriter</string>
+    <string name="title_activity_tag_reader">TagReader</string>
+    <string name="title_activity_attendance_tracker">AttendanceTracker</string>
+    <string name="title_activity_attend">Attend</string>
+</resources>

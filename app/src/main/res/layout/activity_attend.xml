@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/head">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:padding="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:typeface="sans"
+        android:text="Attendance"
+        android:textSize="35sp"
+        android:textColor="#1F66AB"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtmain"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#1F66AB"
+        android:paddingBottom="3dip"
+        android:paddingTop="3dip"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:text="TagID"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:id="@+id/txtTagID"/>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="StudentID"
+            android:id="@+id/txtStudentID"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:text="ClassroomID"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:id="@+id/txtClassroomID"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:text="Timestamp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:id="@+id/txtTimestamp"/>
+
+        </LinearLayout>
+    <ListView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:divider="#808080"
+    android:layout_marginTop="5dp"
+    android:dividerHeight="1dp"
+    android:padding="3dp"
+    android:id="@+id/lstpro">
+
+</ListView>
+</LinearLayout>
