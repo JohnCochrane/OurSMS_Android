@@ -17,7 +17,7 @@ public class ConnectionClass {
     String classs = "net.sourceforge.jtds.jdbc.Driver";
     String db = "OurSMS";
     String un = "B00641544";
-    String password = "patrick12345";
+    String password = "[databasePassword]";
 
     @SuppressLint("NewApi")
     public Connection CONN() {
